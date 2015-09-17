@@ -16,7 +16,7 @@ html {
 
 .row {
 	/*max-width: 1080px;*/
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@ header {
 
 header .hero-text-box {
 	position: absolute;
-	width: 1140px%;
+	width: 55%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -382,7 +382,7 @@ section#plans h3 {
 } 
 
 section#plans .price {
-	font-size: 40px;
+	font-size: 2.0em;
 	color: #e67e22; 
 	margin-bottom: 20px;
 	display: inline-block;
@@ -398,6 +398,7 @@ section#plans ul {
 
 section#plans li {
 	list-style: none;
+	font-size: .8em;
 } 
 
 
