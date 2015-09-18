@@ -35,6 +35,12 @@
 		margin-top: 40px;
 	}
 
+	section#how-it-works #main-image img {
+		width: 40%;
+		float: right;
+		margin-right: 30%;
+	} 
+
 	section#plans .col .box {
 		padding: 10px 15px 25px 15px;
 	} 
@@ -51,10 +57,22 @@
 		width: 90%;
 		margin: 20px auto;
 	}
+
+	footer .nav-links {
+		float: left;
+		padding-left: 20px;
+	} 
+
+	footer .social-links {
+		float: right;
+		padding-right: 20px;
+	}
+
 	footer li {
 		display: inline-block;
 		list-style: none;
 		margin-right: 10px;
+		font-size: 1.5em;
 	}
 }
 
