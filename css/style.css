@@ -125,6 +125,11 @@ header #main-nav ul li a:active {
 	transition: border-bottom .2s;
 }
 
+header #main-nav i {
+	display: none;
+}
+
+
 .sticky {
 	position: fixed;
 	top: 0;
