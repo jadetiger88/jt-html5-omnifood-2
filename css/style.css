@@ -56,6 +56,7 @@ html {
 **  Header 
 */
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
 	background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../img/hero.jpg);
 	background-size: cover;
 	background-position: center;
@@ -68,6 +69,8 @@ header .hero-text-box {
 	width: 55%;
 	top: 50%;
 	left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
