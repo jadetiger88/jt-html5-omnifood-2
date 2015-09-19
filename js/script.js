@@ -39,20 +39,23 @@ $(document).ready(function() {
 		}
 	});
 
-	// $("#main-nav li a").click(function() {
-	// 	var nav = $("#main-nav ul li"); 
-	// 	var icon = $("#main-nav i"); 
-	// 	nav.slideToggle("slow");
+	$("#main-nav li a").click(function() {
+			if ($( window ).width() < 667) {
+			var nav = $("#main-nav ul li"); 
+			var icon = $("#main-nav i"); 
+			nav.slideToggle("slow");
 
-	// 	if (icon.hasClass("fa-bars")) {
-	// 		icon.removeClass("fa-bars"); 
-	// 		icon.addClass("fa-times-circle"); 
-	// 	} else {
-	// 		icon.addClass("fa-bars"); 
-	// 		icon.removeClass("fa-times-circle"); 
-	// 	}
-	// });
+			if (icon.hasClass("fa-bars")) {
+				icon.removeClass("fa-bars"); 
+				icon.addClass("fa-times-circle"); 
+			} else {
+				icon.addClass("fa-bars"); 
+				icon.removeClass("fa-times-circle"); 
+			}
+		}
+	});
 
 
 }); 
 
+$( window ).width();
