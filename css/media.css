@@ -77,8 +77,16 @@
 }
 
 @media only screen and (max-width: 666px) {
-	body {font-size: 14px;}
+	body {font-size: 18px;}
 
+
+	.row {
+		width: 90%;
+	}
+
+	header h1 {
+		font-size: 1.2em;
+	}
 
 	header #main-nav {
 		opacity: 0.8;
@@ -103,11 +111,34 @@
 	}
 
 
+	header .hero-text-box {
+		width: 90%;
+	}
+
+	section#features #feature-main-text {
+		width: 100%;
+	}
+
+	section#form #form-container label {
+		float: left;
+		padding-left: 8px;
+		margin-top: 10px;
+	}
+
+	footer .social-links {
+		float: left;
+		padding-left: 20px;
+	}
+
+	footer .fa {
+	font-size: 1.0em;
+}
+
+
 
 }
 
 @media only screen and (max-width: 480px) {
-	body {font-size: 12px;}
 
 }
 
